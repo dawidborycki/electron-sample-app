@@ -1,0 +1,33 @@
+{
+  "name": "electron-sample-app",
+  "version": "1.0.0",
+  "description": "Electron application to retrieve data from API and display it in a table.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "author": "Learning Path",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.4",    
+    "jquery": "^3.6.0"
+  },
+  "devDependencies": {
+    "electron-builder": "^22.12.0",
+    "electron": "^16.0.5"
+  },
+  "build": {
+    "appId": "com.example.electron-sample-app",
+    "productName": "Electron Sample Application",
+    "directories": {
+      "output": "dist"
+    }, 
+    "win": {
+      "target": [
+        "nsis", 
+        "nsis:x64"       
+      ]
+    }
+  }
+}

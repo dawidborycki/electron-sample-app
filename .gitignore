@@ -1,0 +1,53 @@
+# Ignore node_modules directory
+node_modules/
+
+# Ignore build and distribution directories
+out/
+dist/
+
+# Ignore log files
+*.log
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore user-specific files
+npm-debug.log
+yarn-error.log
+
+# Ignore IDE and text editor configuration
+.vscode/
+.idea/
+*.sublime-*
+
+# Ignore local environment files (you can customize this)
+.env
+.env.local
+.env.*.local
+
+# Ignore OS-generated files
+Desktop.ini
+.DS_Store?
+ehthumbs.db
+Icon?
+Thumbs.db
+
+# Ignore Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+*.lnk
+
+# Ignore macOS Installer files
+*.dmg
+*.pkg
+
+# Ignore Linux packaging files
+*.deb
+*.rpm
+
+# Ignore Electron's build artifacts
+node_modules/
+dist/
